@@ -1,0 +1,51 @@
+Server Request Codes
+
+200 OK
+300 Multiple Choice
+301 Moved Permanently
+302 FOUND
+304 Not Modified
+307 Temporary Redirect
+400 Bad Request
+401 Unauthorized
+403 Forbidden
+404 Not Found
+410 Gone
+500 Internal Server Found
+501 Not Implemented
+503 Service Unavailable
+550 Permission Denied
+
+
+npm install -g // install the module globally
+
+mongoose is an objec t modeling for node.js
+
+UUID -
+
+dotenv - dotenv is a zero dependancy module that loads environment variable from .env file into process.env
+-- npm install dotenv
+
+body parser - Parse incoming request bodies in a middleware before you handle, available under the req.body property
+-- npm install body-parser
+
+cookie parser - Parse cookies header and populate req.cookies with an object keyed by the cookie names.Optionally
+-- npm install cookie-parser
+
+Cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various optioins
+It is a mechanism that allows restricted resource on a webpage to be requested from another domain outside the domain
+from which the first resource was served.
+-- npm install cors
+
+
+EXPRESS-VALIDATOR
+-- npm install --save express-validator
+
+
+JSON WEB-TOKEN
+-- npm install jsonwebtoken
+
+EXPRESS-JWT
+this module let's you authenticate HTTP requests using JWT Token in your Node.js applications.
+JWT's are typically used to protect API endpoints, and are often issued using OpenID Connect.
+-- npm install express-jwt
